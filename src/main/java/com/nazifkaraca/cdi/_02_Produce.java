@@ -1,7 +1,9 @@
 package com.nazifkaraca.cdi;
 
 import jakarta.enterprise.context.ApplicationScoped;
-
+import jakarta.inject.Named;
+import jakarta.enterprise.inject.Produces;
+import java.util.List;
 import java.util.ArrayList;
 
 @Named(value="produceTuto")
