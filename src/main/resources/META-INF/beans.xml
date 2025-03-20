@@ -13,4 +13,5 @@
     <interceptors>
         <class>com.nazifkaraca.aop.interceptor.InterceptorYolKesiciAsil</class>
     </interceptors>
+
 </beans>
