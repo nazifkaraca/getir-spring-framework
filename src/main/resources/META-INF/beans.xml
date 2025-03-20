@@ -3,8 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/beans_4_1.xsd">
 
+<!-- alternative-->
     <alternatives>
         <class>com.nazifkaraca.alternative.Patron1</class>
         <!--><class>com.nazifkaraca.alternative.Patron2</class><-->
     </alternatives>
+
+<!-- interceptor-->
+    <interceptors>
+        <class>com.nazifkaraca.aop.interceptor.InterceptorYolKesiciAsil</class>
+    </interceptors>
 </beans>
